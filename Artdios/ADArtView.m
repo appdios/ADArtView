@@ -14,6 +14,7 @@
 #import "ADProperties.h"
 #import "SMColor.h"
 
+static const NSInteger kHistoryThreshold  = 30;
 @interface ADArtView ()
 {
     CGPoint location;
@@ -24,6 +25,7 @@
 @property (nonatomic, strong) ADStrokeHandler *strokeHandler;
 @property (nonatomic, strong) ADPropertyManager *propertyManager;
 @property (nonatomic, strong) UIImage *snapshotImage;
+@property (nonatomic, strong) NSMutableArray *historyArts;
 @end
 
 @implementation ADArtView
@@ -77,7 +79,26 @@
 
 - (void)undo
 {
-    // TODO
+    if ([self.historyArts count]) {
+        [self.historyArts removeObjectAtIndex:0];
+        if ([self.historyArts count]) {
+            self.snapshotImage  = [self.historyArts objectAtIndex:0];
+            [self.strokeHandler drawImage:self.snapshotImage atPoint:self.center];
+            [self.delegate artView:self imageDidChange:self.snapshotImage];
+        }
+    }
+}
+
+-(void) addArt:(UIImage*)art
+{
+    if (self.historyArts==nil) {
+        self.historyArts = [NSMutableArray array];
+    }
+    
+    if ([self.historyArts count]>=kHistoryThreshold) {
+        [self.historyArts removeLastObject];
+    }
+    [self.historyArts insertObject:art atIndex:0];
 }
 
 - (void)setDefaults
@@ -185,6 +206,7 @@
     endTimeStamp = event.timestamp;
     
     [self.delegate artView:self imageDidChange:self.snapshotImage];
+    [self addArt:self.snapshotImage];
 }
 
 - (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event

@@ -10,12 +10,15 @@
 @protocol ADArtViewDelegate;
 
 @interface ADArtView : UIView
+
 @property (nonatomic, weak) id<ADArtViewDelegate> delegate;
 
 - (id)initWithBackroundImage:(UIImage*)image;
 - (void)setBrushType:(ADBrushType)brushType;
 - (void)setBrushColor:(UIColor*)color;
 - (void)setMirrorType:(ADMirrorType)mirrorType;
+- (void)undo;
+
 @end
 
 @protocol ADArtViewDelegate <NSObject>
