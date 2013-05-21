@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Artdios' target in the 'Artdios' project
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "ADEnums.h"
+#import "ADBrushProtocol.h"
+#import <OpenGLES/ES1/gl.h>
+#import "ADProperties.h"
+#endif

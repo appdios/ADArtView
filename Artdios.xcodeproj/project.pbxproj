@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAE83FD174B147F003AFF26 /* ADPenBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE83FC174B147F003AFF26 /* ADPenBrush.m */; };
+		5CFC6604174873400036BDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC6603174873400036BDF9 /* Foundation.framework */; };
+		5CFC66191748B3CF0036BDF9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC66181748B3CF0036BDF9 /* OpenGLES.framework */; };
+		5CFC661B1748B3D60036BDF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC661A1748B3D60036BDF9 /* QuartzCore.framework */; };
+		5CFC661D1748B3E20036BDF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC661C1748B3E20036BDF9 /* UIKit.framework */; };
+		5CFC661F1748B3EA0036BDF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC661E1748B3EA0036BDF9 /* CoreGraphics.framework */; };
+		5CFC66271748B41B0036BDF9 /* ADInkBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66221748B41B0036BDF9 /* ADInkBrush.m */; };
+		5CFC66281748B41B0036BDF9 /* ADSketchBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66241748B41B0036BDF9 /* ADSketchBrush.m */; };
+		5CFC66291748B41B0036BDF9 /* ADRibbonBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66261748B41B0036BDF9 /* ADRibbonBrush.m */; };
+		5CFC66461748B4390036BDF9 /* ADStrokeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC662C1748B4390036BDF9 /* ADStrokeHandler.m */; };
+		5CFC66471748B4390036BDF9 /* SMPainter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC662E1748B4390036BDF9 /* SMPainter.m */; };
+		5CFC66481748B4390036BDF9 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66301748B4390036BDF9 /* UIImage+RoundedCorner.m */; };
+		5CFC66491748B4390036BDF9 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66321748B4390036BDF9 /* UIImage+Alpha.m */; };
+		5CFC664A1748B4390036BDF9 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66341748B4390036BDF9 /* UIImage+Resize.m */; };
+		5CFC664B1748B4390036BDF9 /* ADLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66361748B4390036BDF9 /* ADLayerView.m */; };
+		5CFC664C1748B4390036BDF9 /* ADDrawHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66381748B4390036BDF9 /* ADDrawHelper.m */; };
+		5CFC664D1748B4390036BDF9 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC663A1748B4390036BDF9 /* Texture2D.m */; };
+		5CFC664E1748B4390036BDF9 /* ADUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC663C1748B4390036BDF9 /* ADUtils.m */; };
+		5CFC664F1748B4390036BDF9 /* ADPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC663E1748B4390036BDF9 /* ADPropertyManager.m */; };
+		5CFC66501748B4390036BDF9 /* ADBrushFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66401748B4390036BDF9 /* ADBrushFactory.m */; };
+		5CFC66511748B4390036BDF9 /* ADProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66421748B4390036BDF9 /* ADProperties.m */; };
+		5CFC66521748B4390036BDF9 /* ADBrushProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66451748B4390036BDF9 /* ADBrushProperty.m */; };
+		5CFC66581748B45A0036BDF9 /* SMPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66551748B45A0036BDF9 /* SMPoint.m */; };
+		5CFC66591748B45A0036BDF9 /* SMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC66571748B45A0036BDF9 /* SMColor.m */; };
+		5CFC665C1748B53A0036BDF9 /* ADArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC665B1748B53A0036BDF9 /* ADArtView.m */; };
+		5CFC669D174974740036BDF9 /* ADArtView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFC665A1748B53A0036BDF9 /* ADArtView.h */; };
+		5CFC669F1749CABE0036BDF9 /* ADEnums.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFC669E1749CA750036BDF9 /* ADEnums.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CFC65FE174873400036BDF9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				5CFC669F1749CABE0036BDF9 /* ADEnums.h in CopyFiles */,
+				5CFC669D174974740036BDF9 /* ADArtView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CAE83FB174B147F003AFF26 /* ADPenBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPenBrush.h; sourceTree = "<group>"; };
+		5CAE83FC174B147F003AFF26 /* ADPenBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPenBrush.m; sourceTree = "<group>"; };
+		5CFC6600174873400036BDF9 /* libArtdios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtdios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFC6603174873400036BDF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CFC6607174873400036BDF9 /* Artdios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artdios-Prefix.pch"; sourceTree = "<group>"; };
+		5CFC66181748B3CF0036BDF9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5CFC661A1748B3D60036BDF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5CFC661C1748B3E20036BDF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CFC661E1748B3EA0036BDF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CFC66211748B41B0036BDF9 /* ADInkBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADInkBrush.h; sourceTree = "<group>"; };
+		5CFC66221748B41B0036BDF9 /* ADInkBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADInkBrush.m; sourceTree = "<group>"; };
+		5CFC66231748B41B0036BDF9 /* ADSketchBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSketchBrush.h; sourceTree = "<group>"; };
+		5CFC66241748B41B0036BDF9 /* ADSketchBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSketchBrush.m; sourceTree = "<group>"; };
+		5CFC66251748B41B0036BDF9 /* ADRibbonBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRibbonBrush.h; sourceTree = "<group>"; };
+		5CFC66261748B41B0036BDF9 /* ADRibbonBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADRibbonBrush.m; sourceTree = "<group>"; };
+		5CFC662B1748B4390036BDF9 /* ADStrokeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADStrokeHandler.h; sourceTree = "<group>"; };
+		5CFC662C1748B4390036BDF9 /* ADStrokeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADStrokeHandler.m; sourceTree = "<group>"; };
+		5CFC662D1748B4390036BDF9 /* SMPainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPainter.h; sourceTree = "<group>"; };
+		5CFC662E1748B4390036BDF9 /* SMPainter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPainter.m; sourceTree = "<group>"; };
+		5CFC662F1748B4390036BDF9 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		5CFC66301748B4390036BDF9 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		5CFC66311748B4390036BDF9 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		5CFC66321748B4390036BDF9 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		5CFC66331748B4390036BDF9 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		5CFC66341748B4390036BDF9 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		5CFC66351748B4390036BDF9 /* ADLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLayerView.h; sourceTree = "<group>"; };
+		5CFC66361748B4390036BDF9 /* ADLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLayerView.m; sourceTree = "<group>"; };
+		5CFC66371748B4390036BDF9 /* ADDrawHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDrawHelper.h; sourceTree = "<group>"; };
+		5CFC66381748B4390036BDF9 /* ADDrawHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDrawHelper.m; sourceTree = "<group>"; };
+		5CFC66391748B4390036BDF9 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		5CFC663A1748B4390036BDF9 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		5CFC663B1748B4390036BDF9 /* ADUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUtils.h; sourceTree = "<group>"; };
+		5CFC663C1748B4390036BDF9 /* ADUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUtils.m; sourceTree = "<group>"; };
+		5CFC663D1748B4390036BDF9 /* ADPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPropertyManager.h; sourceTree = "<group>"; };
+		5CFC663E1748B4390036BDF9 /* ADPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPropertyManager.m; sourceTree = "<group>"; };
+		5CFC663F1748B4390036BDF9 /* ADBrushFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBrushFactory.h; sourceTree = "<group>"; };
+		5CFC66401748B4390036BDF9 /* ADBrushFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBrushFactory.m; sourceTree = "<group>"; };
+		5CFC66411748B4390036BDF9 /* ADProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADProperties.h; sourceTree = "<group>"; };
+		5CFC66421748B4390036BDF9 /* ADProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADProperties.m; sourceTree = "<group>"; };
+		5CFC66431748B4390036BDF9 /* ADBrushProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBrushProtocol.h; sourceTree = "<group>"; };
+		5CFC66441748B4390036BDF9 /* ADBrushProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBrushProperty.h; sourceTree = "<group>"; };
+		5CFC66451748B4390036BDF9 /* ADBrushProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBrushProperty.m; sourceTree = "<group>"; };
+		5CFC66541748B45A0036BDF9 /* SMPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPoint.h; sourceTree = "<group>"; };
+		5CFC66551748B45A0036BDF9 /* SMPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPoint.m; sourceTree = "<group>"; };
+		5CFC66561748B45A0036BDF9 /* SMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMColor.h; sourceTree = "<group>"; };
+		5CFC66571748B45A0036BDF9 /* SMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMColor.m; sourceTree = "<group>"; };
+		5CFC665A1748B53A0036BDF9 /* ADArtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADArtView.h; sourceTree = "<group>"; };
+		5CFC665B1748B53A0036BDF9 /* ADArtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADArtView.m; sourceTree = "<group>"; };
+		5CFC66981748B93C0036BDF9 /* particle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle4.png; sourceTree = "<group>"; };
+		5CFC669E1749CA750036BDF9 /* ADEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADEnums.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFC65FD174873400036BDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFC661F1748B3EA0036BDF9 /* CoreGraphics.framework in Frameworks */,
+				5CFC661D1748B3E20036BDF9 /* UIKit.framework in Frameworks */,
+				5CFC661B1748B3D60036BDF9 /* QuartzCore.framework in Frameworks */,
+				5CFC66191748B3CF0036BDF9 /* OpenGLES.framework in Frameworks */,
+				5CFC6604174873400036BDF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFC65F7174873400036BDF9 = {
+			isa = PBXGroup;
+			children = (
+				5CFC6605174873400036BDF9 /* Artdios */,
+				5CFC6602174873400036BDF9 /* Frameworks */,
+				5CFC6601174873400036BDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFC6601174873400036BDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC6600174873400036BDF9 /* libArtdios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFC6602174873400036BDF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC661E1748B3EA0036BDF9 /* CoreGraphics.framework */,
+				5CFC661C1748B3E20036BDF9 /* UIKit.framework */,
+				5CFC661A1748B3D60036BDF9 /* QuartzCore.framework */,
+				5CFC66181748B3CF0036BDF9 /* OpenGLES.framework */,
+				5CFC6603174873400036BDF9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CFC6605174873400036BDF9 /* Artdios */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC66971748B92F0036BDF9 /* Images */,
+				5CFC66531748B4500036BDF9 /* Shapes */,
+				5CFC662A1748B42C0036BDF9 /* Util */,
+				5CFC66201748B40C0036BDF9 /* Brushes */,
+				5CFC665A1748B53A0036BDF9 /* ADArtView.h */,
+				5CFC665B1748B53A0036BDF9 /* ADArtView.m */,
+				5CFC6606174873400036BDF9 /* Supporting Files */,
+			);
+			path = Artdios;
+			sourceTree = "<group>";
+		};
+		5CFC6606174873400036BDF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC6607174873400036BDF9 /* Artdios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CFC66201748B40C0036BDF9 /* Brushes */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC66211748B41B0036BDF9 /* ADInkBrush.h */,
+				5CFC66221748B41B0036BDF9 /* ADInkBrush.m */,
+				5CFC66231748B41B0036BDF9 /* ADSketchBrush.h */,
+				5CFC66241748B41B0036BDF9 /* ADSketchBrush.m */,
+				5CFC66251748B41B0036BDF9 /* ADRibbonBrush.h */,
+				5CFC66261748B41B0036BDF9 /* ADRibbonBrush.m */,
+				5CAE83FB174B147F003AFF26 /* ADPenBrush.h */,
+				5CAE83FC174B147F003AFF26 /* ADPenBrush.m */,
+			);
+			name = Brushes;
+			sourceTree = "<group>";
+		};
+		5CFC662A1748B42C0036BDF9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC662B1748B4390036BDF9 /* ADStrokeHandler.h */,
+				5CFC662C1748B4390036BDF9 /* ADStrokeHandler.m */,
+				5CFC662D1748B4390036BDF9 /* SMPainter.h */,
+				5CFC662E1748B4390036BDF9 /* SMPainter.m */,
+				5CFC662F1748B4390036BDF9 /* UIImage+RoundedCorner.h */,
+				5CFC66301748B4390036BDF9 /* UIImage+RoundedCorner.m */,
+				5CFC66311748B4390036BDF9 /* UIImage+Alpha.h */,
+				5CFC66321748B4390036BDF9 /* UIImage+Alpha.m */,
+				5CFC66331748B4390036BDF9 /* UIImage+Resize.h */,
+				5CFC66341748B4390036BDF9 /* UIImage+Resize.m */,
+				5CFC66351748B4390036BDF9 /* ADLayerView.h */,
+				5CFC66361748B4390036BDF9 /* ADLayerView.m */,
+				5CFC66371748B4390036BDF9 /* ADDrawHelper.h */,
+				5CFC66381748B4390036BDF9 /* ADDrawHelper.m */,
+				5CFC66391748B4390036BDF9 /* Texture2D.h */,
+				5CFC663A1748B4390036BDF9 /* Texture2D.m */,
+				5CFC663B1748B4390036BDF9 /* ADUtils.h */,
+				5CFC663C1748B4390036BDF9 /* ADUtils.m */,
+				5CFC663D1748B4390036BDF9 /* ADPropertyManager.h */,
+				5CFC663E1748B4390036BDF9 /* ADPropertyManager.m */,
+				5CFC663F1748B4390036BDF9 /* ADBrushFactory.h */,
+				5CFC66401748B4390036BDF9 /* ADBrushFactory.m */,
+				5CFC66411748B4390036BDF9 /* ADProperties.h */,
+				5CFC66421748B4390036BDF9 /* ADProperties.m */,
+				5CFC66431748B4390036BDF9 /* ADBrushProtocol.h */,
+				5CFC66441748B4390036BDF9 /* ADBrushProperty.h */,
+				5CFC66451748B4390036BDF9 /* ADBrushProperty.m */,
+				5CFC669E1749CA750036BDF9 /* ADEnums.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		5CFC66531748B4500036BDF9 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC66541748B45A0036BDF9 /* SMPoint.h */,
+				5CFC66551748B45A0036BDF9 /* SMPoint.m */,
+				5CFC66561748B45A0036BDF9 /* SMColor.h */,
+				5CFC66571748B45A0036BDF9 /* SMColor.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		5CFC66971748B92F0036BDF9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5CFC66981748B93C0036BDF9 /* particle4.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFC65FF174873400036BDF9 /* Artdios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFC660E174873400036BDF9 /* Build configuration list for PBXNativeTarget "Artdios" */;
+			buildPhases = (
+				5CFC65FC174873400036BDF9 /* Sources */,
+				5CFC65FD174873400036BDF9 /* Frameworks */,
+				5CFC65FE174873400036BDF9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artdios;
+			productName = Artdios;
+			productReference = 5CFC6600174873400036BDF9 /* libArtdios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFC65F8174873400036BDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Appdios Inc.";
+			};
+			buildConfigurationList = 5CFC65FB174873400036BDF9 /* Build configuration list for PBXProject "Artdios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CFC65F7174873400036BDF9;
+			productRefGroup = 5CFC6601174873400036BDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFC65FF174873400036BDF9 /* Artdios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFC65FC174873400036BDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFC66271748B41B0036BDF9 /* ADInkBrush.m in Sources */,
+				5CFC66281748B41B0036BDF9 /* ADSketchBrush.m in Sources */,
+				5CFC66291748B41B0036BDF9 /* ADRibbonBrush.m in Sources */,
+				5CFC66461748B4390036BDF9 /* ADStrokeHandler.m in Sources */,
+				5CFC66471748B4390036BDF9 /* SMPainter.m in Sources */,
+				5CFC66481748B4390036BDF9 /* UIImage+RoundedCorner.m in Sources */,
+				5CFC66491748B4390036BDF9 /* UIImage+Alpha.m in Sources */,
+				5CFC664A1748B4390036BDF9 /* UIImage+Resize.m in Sources */,
+				5CFC664B1748B4390036BDF9 /* ADLayerView.m in Sources */,
+				5CFC664C1748B4390036BDF9 /* ADDrawHelper.m in Sources */,
+				5CFC664D1748B4390036BDF9 /* Texture2D.m in Sources */,
+				5CFC664E1748B4390036BDF9 /* ADUtils.m in Sources */,
+				5CFC664F1748B4390036BDF9 /* ADPropertyManager.m in Sources */,
+				5CFC66501748B4390036BDF9 /* ADBrushFactory.m in Sources */,
+				5CFC66511748B4390036BDF9 /* ADProperties.m in Sources */,
+				5CFC66521748B4390036BDF9 /* ADBrushProperty.m in Sources */,
+				5CFC66581748B45A0036BDF9 /* SMPoint.m in Sources */,
+				5CFC66591748B45A0036BDF9 /* SMColor.m in Sources */,
+				5CFC665C1748B53A0036BDF9 /* ADArtView.m in Sources */,
+				5CAE83FD174B147F003AFF26 /* ADPenBrush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CFC660C174873400036BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CFC660D174873400036BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CFC660F174873400036BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Artdios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Artdios/Artdios-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Build/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CFC6610174873400036BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Artdios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Artdios/Artdios-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Build/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFC65FB174873400036BDF9 /* Build configuration list for PBXProject "Artdios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFC660C174873400036BDF9 /* Debug */,
+				5CFC660D174873400036BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFC660E174873400036BDF9 /* Build configuration list for PBXNativeTarget "Artdios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFC660F174873400036BDF9 /* Debug */,
+				5CFC6610174873400036BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CFC65F8174873400036BDF9 /* Project object */;
+}
