@@ -6,7 +6,6 @@
 //  Copyright (c) 2013 Appdios Inc. All rights reserved.
 //
 
-#import "ADBrushProtocol.h"
 
 @interface ADPenBrush : NSObject<ADBrushProtocol>
 

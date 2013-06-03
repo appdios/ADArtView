@@ -97,7 +97,8 @@ void drawEraserLine(CGPoint begin, CGPoint end, int size){
 	// Allocate vertex array buffer
 	if(vertexBuffer == NULL)
 		vertexBuffer = malloc(vertexMax * 2 * sizeof(GLfloat));
-	
+    CGFloat scale = [[UIScreen mainScreen] scale];
+
 	// Add points to the buffer so there are drawing points every X pixels
 	count = MAX(ceilf(sqrtf((end.x - begin.x) * (end.x - begin.x) + (end.y - begin.y) * (end.y - begin.y)) / size), 1);
 	for(i = 0; i < count; ++i) {
@@ -109,8 +110,9 @@ void drawEraserLine(CGPoint begin, CGPoint end, int size){
 		vertexBuffer[2 * vertexCount + 0] = begin.x + (end.x - begin.x) * ((GLfloat)i / (GLfloat)count);
 		vertexBuffer[2 * vertexCount + 1] = begin.y + (end.y - begin.y) * ((GLfloat)i / (GLfloat)count);
         
-        drawCircle(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20, 0, 60, FALSE);
+        drawCircle(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 60, FALSE);
         
+       // drawCircleTexture(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 30, FALSE);
         vertexCount += 1;
         
 	}
@@ -141,8 +143,12 @@ void drawTextureAtPoint(CGPoint point)
 
 void drawTextureAtPointM(CGPoint point)
 {
-    /* glColor4f(1.0f, 0.0f, 0.0f, 0.25f);   //defines the alpha value = 0.25f
-     glBlendFunc(GL_SRC_ALPHA, GL_ZERO);   //takes 1/4 of the src brightness (ignore dest color)
+//     glColor4f(1.0f, 0.0f, 0.0f, 1.0f);
+//    glEnable(GL_TEXTURE_2D);
+//    glBlendFunc(GL_SRC_ALPHA_SATURATE, GL_ONE_MINUS_SRC_ALPHA);
+//    glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+    //defines the alpha value = 0.25f
+    /* glBlendFunc(GL_SRC_ALPHA, GL_ZERO);   //takes 1/4 of the src brightness (ignore dest color)
      
      Texture2D *edgeTexture = [[ADProperties properties] waterEdgeImage];
      [edgeTexture drawAtPoint:point];
@@ -160,7 +166,7 @@ void drawTextureAtPointM(CGPoint point)
      */
     Texture2D *texture = [[ADProperties sharedInstance] stencilImage];
     [texture drawAtPoint:point];
-    
+
     NSInteger mirrorType = [[ADProperties sharedInstance] mirrorType];
     switch (mirrorType) {
         case ADMirrorTypeX:
@@ -520,6 +526,7 @@ unsigned int randnogen(unsigned int min, unsigned int max)
 
 void drawCircle( CGPoint center, float r, float a, int segs, BOOL drawLineToCenter)
 {
+    glDisable(GL_TEXTURE_2D);
     int additionalSegment = 1;
 	if (drawLineToCenter)
 		additionalSegment++;
@@ -556,6 +563,7 @@ void drawCircle( CGPoint center, float r, float a, int segs, BOOL drawLineToCent
 
 void drawCircleTexture( CGPoint center, float r, float a, int segs, BOOL drawLineToCenter)
 {
+    glEnable(GL_TEXTURE_2D);
     int additionalSegment = 1;
 	if (drawLineToCenter)
 		additionalSegment++;
@@ -579,7 +587,6 @@ void drawCircleTexture( CGPoint center, float r, float a, int segs, BOOL drawLin
 	}
 	//vertices[(segs+1)*2] = center.x;
 	//vertices[(segs+1)*2+1] = center.y;
-	
 	drawPointsM(vertices, segs);
     
 	free( vertices );
@@ -587,18 +594,38 @@ void drawCircleTexture( CGPoint center, float r, float a, int segs, BOOL drawLin
 
 void drawQuadBezierM(CGPoint origin, CGPoint control, CGPoint destination, int segments){
     drawQuadBezier(origin, control, destination, segments);
-//    for(id mirrorType in [[ADProperties properties] mirrorTypes]){
-//        int mirror = [mirrorType intValue];
-//        if (mirror == ADMirrorTypeX) {
-//            drawQuadBezier([ADUtils getMirrorX:origin], [ADUtils getMirrorX:control], [ADUtils getMirrorX:destination], segments);
-//        }
-//        else if (mirror == ADMirrorTypeY) {
-//            drawQuadBezier([ADUtils getMirrorY:origin], [ADUtils getMirrorY:control], [ADUtils getMirrorY:destination], segments);
-//        }
-//        else if (mirror == ADMirrorTypeXY) {
-//            drawQuadBezier([ADUtils getMirrorXY:origin], [ADUtils getMirrorXY:control], [ADUtils getMirrorXY:destination], segments);
-//        }
-//    }
+    NSInteger mirrorType = [[ADProperties sharedInstance] mirrorType];
+    
+    switch (mirrorType) {
+        case ADMirrorTypeX:
+            drawQuadBezier([ADUtils getMirrorX:origin], [ADUtils getMirrorX:control], [ADUtils getMirrorX:destination], segments);
+            break;
+        case ADMirrorTypeY:
+            drawQuadBezier([ADUtils getMirrorY:origin], [ADUtils getMirrorY:control], [ADUtils getMirrorY:destination], segments);
+            break;
+        case ADMirrorTypeDiagonal:
+            drawQuadBezier([ADUtils getMirrorXY:origin], [ADUtils getMirrorXY:control], [ADUtils getMirrorXY:destination], segments);
+            break;
+        case (ADMirrorTypeX|ADMirrorTypeY):
+            drawQuadBezier([ADUtils getMirrorX:origin], [ADUtils getMirrorX:control], [ADUtils getMirrorX:destination], segments);
+            drawQuadBezier([ADUtils getMirrorY:origin], [ADUtils getMirrorY:control], [ADUtils getMirrorY:destination], segments);
+            break;
+        case (ADMirrorTypeX|ADMirrorTypeDiagonal):
+            drawQuadBezier([ADUtils getMirrorX:origin], [ADUtils getMirrorX:control], [ADUtils getMirrorX:destination], segments);
+            drawQuadBezier([ADUtils getMirrorXY:origin], [ADUtils getMirrorXY:control], [ADUtils getMirrorXY:destination], segments);
+            break;
+        case (ADMirrorTypeY|ADMirrorTypeDiagonal):
+            drawQuadBezier([ADUtils getMirrorY:origin], [ADUtils getMirrorY:control], [ADUtils getMirrorY:destination], segments);
+            drawQuadBezier([ADUtils getMirrorXY:origin], [ADUtils getMirrorXY:control], [ADUtils getMirrorXY:destination], segments);
+            break;
+        case (ADMirrorTypeX|ADMirrorTypeY|ADMirrorTypeDiagonal):
+            drawQuadBezier([ADUtils getMirrorX:origin], [ADUtils getMirrorX:control], [ADUtils getMirrorX:destination], segments);
+            drawQuadBezier([ADUtils getMirrorY:origin], [ADUtils getMirrorY:control], [ADUtils getMirrorY:destination], segments);
+            drawQuadBezier([ADUtils getMirrorXY:origin], [ADUtils getMirrorXY:control], [ADUtils getMirrorXY:destination], segments);
+            break;
+        default:
+            break;
+    }
 }
 
 void drawQuadBezierTexture(CGPoint origin, CGPoint control, CGPoint destination, int segments, int distance)

@@ -7,10 +7,6 @@
 
 #import "ADPenBrush.h"
 #import "SMPainter.h"
-#import "ADUtils.h"
-#import "ADProperties.h"
-#import "SMColor.h"
-#import "ADDrawHelper.h"
 
 #define kPainterLines 20
 

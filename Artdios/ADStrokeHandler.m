@@ -53,12 +53,12 @@
     glEnable(GL_BLEND);
     glEnable(GL_TEXTURE_2D);
     if(brushType == ADBrushTypeEraser){
-        glDisable(GL_TEXTURE_2D);
+        //glDisable(GL_TEXTURE_2D);
         //   glBlendFunc(GL_ONE, GL_ZERO);
         //   glBlendFunc(GL_ZERO, GL_ZERO);
         // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_DST_ALPHA);
         glBlendFunc(GL_ZERO, GL_ZERO);
-        // glBlendFunc(GL_ONE, GL_ONE_MINUS_DST_ALPHA);
+         //glBlendFunc(GL_ONE, GL_ONE_MINUS_DST_ALPHA);
     }
     else if(brushType == ADBrushTypeFill)
     {
@@ -79,22 +79,22 @@
         //  glBlendFunc(GL_SRC_ALPHA, GL_ONE);
         
     }
-    else if(brushType == ADBrushTypeStencil)
-    {
-        NSLog(@"todo");
-//        ADProperties *properties = [ADProperties sharedInstance];
-//        if (properties.stencilImage==nil) {
-//            ADBrushMenuViewController *brushMenu  = [ADBrushMenuViewController sharedInstance];
-//            [brushMenu setTextureImage];
-//        }
-//        
-//        
-//        glEnable(GL_BLEND);
-//        glEnable(GL_TEXTURE_2D);
-//        glBlendFunc(GL_SRC_ALPHA_SATURATE, GL_ONE_MINUS_SRC_ALPHA);
-//        
-//        glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-    }
+//    else if(brushType == ADBrushTypeStencil)
+//    {
+//        NSLog(@"todo");
+////        ADProperties *properties = [ADProperties sharedInstance];
+////        if (properties.stencilImage==nil) {
+////            ADBrushMenuViewController *brushMenu  = [ADBrushMenuViewController sharedInstance];
+////            [brushMenu setTextureImage];
+////        }
+////        
+////        
+////        glEnable(GL_BLEND);
+////        glEnable(GL_TEXTURE_2D);
+////        glBlendFunc(GL_SRC_ALPHA_SATURATE, GL_ONE_MINUS_SRC_ALPHA);
+////        
+////        glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+//    }
     else
     {
         if (brushType == ADBrushTypeGrid)
@@ -102,22 +102,21 @@
             glDisable(GL_TEXTURE_2D);
             glBlendFunc(GL_SRC_ALPHA_SATURATE, GL_ONE_MINUS_SRC_ALPHA);
         }
-        else  if ((brushType == ADBrushTypePattern)
-                  ||(brushType == ADBrushTypeCrayon)
-                  )
-        {
-            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-            //glBlendFunc(GL_ONE, GL_SRC_COLOR);
-            
-        }
-        else  if (brushType == ADBrushTypeCalligraphy)
-        {
-            glBlendFunc(GL_ONE,GL_ONE_MINUS_SRC_ALPHA);
-        }
+//        else  if (brushType == ADBrushTypeCalligraphy)
+//        {
+//            glBlendFunc(GL_ONE,GL_ONE_MINUS_SRC_ALPHA);
+//        }
         /* else  if (brushType == ADBrushTypeWeb)
          {
          glBlendFunc(GL_SRC_ALPHA_SATURATE, GL_ONE_MINUS_SRC_ALPHA);
          }*/
+        else  if (brushType == ADBrushTypeText)
+        {
+            glEnable(GL_TEXTURE_2D);
+            glEnable(GL_BLEND);
+            glBlendFunc (GL_ONE, GL_ONE);
+            glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+        }
         else  if (
                   (
                   brushType == ADBrushTypeInk)
@@ -125,8 +124,13 @@
          (brushType == ADBrushTypeSketch)||
          (brushType == ADBrushTypeFur)||
                   (brushType == ADBrushTypeRibbon)||
-                  (brushType == ADBrushTypePen)||
-         (brushType == ADBrushTypeArc))
+                  (brushType == ADBrushTypePen)
+                  ||(brushType == ADBrushTypeArc)
+                  ||(brushType == ADBrushTypeWeb)
+                  ||(brushType == ADBrushTypeConcentricCircle)
+                  ||(brushType == ADBrushTypeShade)
+                  ||(brushType == ADBrushTypeCrayon)
+                  )
         {
             glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
             
@@ -149,9 +153,8 @@
     ADBrushProperty *currentBrushProperty = [ADBrushProperty currentBrushProperty];
     glLineWidth([[currentBrushProperty width] floatValue] * scale);
     glPointSize([[currentBrushProperty width] floatValue] * scale);
-    NSDictionary *currentStroke = [currentBrushProperty stroke];
     
-    glColor4f(smcolor.red,smcolor.green,smcolor.blue,[[currentStroke valueForKey:@"a"] floatValue]);
+    glColor4f(smcolor.red,smcolor.green,smcolor.blue,0.5);
 }
 
 - (void)pathStart:(CGPoint)point
@@ -159,6 +162,7 @@
     [self setBrushProperty];
     id currentBrushInstance = [ADBrushFactory currentBrushInstance];
     [currentBrushInstance pathStart:point];
+    
     [self display];
 }
 

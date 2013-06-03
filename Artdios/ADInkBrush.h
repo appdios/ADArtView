@@ -6,7 +6,6 @@
 //
 //
 
-#import <Foundation/Foundation.h>
 
 @interface ADInkBrush : NSObject<ADBrushProtocol>
 + (ADInkBrush*)sharedInstance;

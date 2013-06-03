@@ -10,4 +10,8 @@
 #import "ADBrushProtocol.h"
 #import <OpenGLES/ES1/gl.h>
 #import "ADProperties.h"
+#import "ADDrawHelper.h"
+#import "ADUtils.h"
+#import "SMColor.h"
+#import "SMPoint.h"
 #endif

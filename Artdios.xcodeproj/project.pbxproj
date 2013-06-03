@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5CAE83FD174B147F003AFF26 /* ADPenBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE83FC174B147F003AFF26 /* ADPenBrush.m */; };
+		5CF55F65174C761A001EA6CE /* ADConcentricCircleBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F50174C761A001EA6CE /* ADConcentricCircleBrush.m */; };
+		5CF55F66174C761A001EA6CE /* ADStencilBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F52174C761A001EA6CE /* ADStencilBrush.m */; };
+		5CF55F67174C761A001EA6CE /* ADWebBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F54174C761A001EA6CE /* ADWebBrush.m */; };
+		5CF55F68174C761A001EA6CE /* ADCurvyBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F56174C761A001EA6CE /* ADCurvyBrush.m */; };
+		5CF55F69174C761A001EA6CE /* ADArcBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F58174C761A001EA6CE /* ADArcBrush.m */; };
+		5CF55F6A174C761A001EA6CE /* ADShadeBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F5A174C761A001EA6CE /* ADShadeBrush.m */; };
+		5CF55F6B174C761A001EA6CE /* ADGridBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F5C174C761A001EA6CE /* ADGridBrush.m */; };
+		5CF55F6C174C761A001EA6CE /* ADEraserBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F5E174C761A001EA6CE /* ADEraserBrush.m */; };
+		5CF55F6D174C761A001EA6CE /* ADFurBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F60174C761A001EA6CE /* ADFurBrush.m */; };
+		5CF55F6E174C761A001EA6CE /* ADFillBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F62174C761A001EA6CE /* ADFillBrush.m */; };
+		5CFA0349175090CB00E5CE69 /* ADTextBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA0348175090CB00E5CE69 /* ADTextBrush.m */; };
 		5CFC6604174873400036BDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC6603174873400036BDF9 /* Foundation.framework */; };
 		5CFC66191748B3CF0036BDF9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC66181748B3CF0036BDF9 /* OpenGLES.framework */; };
 		5CFC661B1748B3D60036BDF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFC661A1748B3D60036BDF9 /* QuartzCore.framework */; };
@@ -51,8 +62,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C81DEA0175B1D0800519F52 /* Watercolor-fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watercolor-fill.png"; sourceTree = "<group>"; };
+		5CA90484175B220600EF0318 /* Watercolor-fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watercolor-fill@2x.png"; sourceTree = "<group>"; };
 		5CAE83FB174B147F003AFF26 /* ADPenBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPenBrush.h; sourceTree = "<group>"; };
 		5CAE83FC174B147F003AFF26 /* ADPenBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPenBrush.m; sourceTree = "<group>"; };
+		5CF55F4F174C761A001EA6CE /* ADConcentricCircleBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADConcentricCircleBrush.h; sourceTree = "<group>"; };
+		5CF55F50174C761A001EA6CE /* ADConcentricCircleBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADConcentricCircleBrush.m; sourceTree = "<group>"; };
+		5CF55F51174C761A001EA6CE /* ADStencilBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADStencilBrush.h; sourceTree = "<group>"; };
+		5CF55F52174C761A001EA6CE /* ADStencilBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADStencilBrush.m; sourceTree = "<group>"; };
+		5CF55F53174C761A001EA6CE /* ADWebBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebBrush.h; sourceTree = "<group>"; };
+		5CF55F54174C761A001EA6CE /* ADWebBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebBrush.m; sourceTree = "<group>"; };
+		5CF55F55174C761A001EA6CE /* ADCurvyBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCurvyBrush.h; sourceTree = "<group>"; };
+		5CF55F56174C761A001EA6CE /* ADCurvyBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCurvyBrush.m; sourceTree = "<group>"; };
+		5CF55F57174C761A001EA6CE /* ADArcBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADArcBrush.h; sourceTree = "<group>"; };
+		5CF55F58174C761A001EA6CE /* ADArcBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADArcBrush.m; sourceTree = "<group>"; };
+		5CF55F59174C761A001EA6CE /* ADShadeBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShadeBrush.h; sourceTree = "<group>"; };
+		5CF55F5A174C761A001EA6CE /* ADShadeBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShadeBrush.m; sourceTree = "<group>"; };
+		5CF55F5B174C761A001EA6CE /* ADGridBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGridBrush.h; sourceTree = "<group>"; };
+		5CF55F5C174C761A001EA6CE /* ADGridBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGridBrush.m; sourceTree = "<group>"; };
+		5CF55F5D174C761A001EA6CE /* ADEraserBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADEraserBrush.h; sourceTree = "<group>"; };
+		5CF55F5E174C761A001EA6CE /* ADEraserBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADEraserBrush.m; sourceTree = "<group>"; };
+		5CF55F5F174C761A001EA6CE /* ADFurBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFurBrush.h; sourceTree = "<group>"; };
+		5CF55F60174C761A001EA6CE /* ADFurBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFurBrush.m; sourceTree = "<group>"; };
+		5CF55F61174C761A001EA6CE /* ADFillBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFillBrush.h; sourceTree = "<group>"; };
+		5CF55F62174C761A001EA6CE /* ADFillBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFillBrush.m; sourceTree = "<group>"; };
+		5CFA0347175090CB00E5CE69 /* ADTextBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTextBrush.h; sourceTree = "<group>"; };
+		5CFA0348175090CB00E5CE69 /* ADTextBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTextBrush.m; sourceTree = "<group>"; };
 		5CFC6600174873400036BDF9 /* libArtdios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtdios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFC6603174873400036BDF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CFC6607174873400036BDF9 /* Artdios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artdios-Prefix.pch"; sourceTree = "<group>"; };
@@ -181,6 +216,28 @@
 				5CFC66261748B41B0036BDF9 /* ADRibbonBrush.m */,
 				5CAE83FB174B147F003AFF26 /* ADPenBrush.h */,
 				5CAE83FC174B147F003AFF26 /* ADPenBrush.m */,
+				5CF55F5F174C761A001EA6CE /* ADFurBrush.h */,
+				5CF55F60174C761A001EA6CE /* ADFurBrush.m */,
+				5CF55F4F174C761A001EA6CE /* ADConcentricCircleBrush.h */,
+				5CF55F50174C761A001EA6CE /* ADConcentricCircleBrush.m */,
+				5CF55F51174C761A001EA6CE /* ADStencilBrush.h */,
+				5CF55F52174C761A001EA6CE /* ADStencilBrush.m */,
+				5CF55F53174C761A001EA6CE /* ADWebBrush.h */,
+				5CF55F54174C761A001EA6CE /* ADWebBrush.m */,
+				5CF55F55174C761A001EA6CE /* ADCurvyBrush.h */,
+				5CF55F56174C761A001EA6CE /* ADCurvyBrush.m */,
+				5CF55F57174C761A001EA6CE /* ADArcBrush.h */,
+				5CF55F58174C761A001EA6CE /* ADArcBrush.m */,
+				5CF55F59174C761A001EA6CE /* ADShadeBrush.h */,
+				5CF55F5A174C761A001EA6CE /* ADShadeBrush.m */,
+				5CF55F5B174C761A001EA6CE /* ADGridBrush.h */,
+				5CF55F5C174C761A001EA6CE /* ADGridBrush.m */,
+				5CF55F5D174C761A001EA6CE /* ADEraserBrush.h */,
+				5CF55F5E174C761A001EA6CE /* ADEraserBrush.m */,
+				5CF55F61174C761A001EA6CE /* ADFillBrush.h */,
+				5CF55F62174C761A001EA6CE /* ADFillBrush.m */,
+				5CFA0347175090CB00E5CE69 /* ADTextBrush.h */,
+				5CFA0348175090CB00E5CE69 /* ADTextBrush.m */,
 			);
 			name = Brushes;
 			sourceTree = "<group>";
@@ -235,6 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				5CFC66981748B93C0036BDF9 /* particle4.png */,
+				5C81DEA0175B1D0800519F52 /* Watercolor-fill.png */,
+				5CA90484175B220600EF0318 /* Watercolor-fill@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -310,6 +369,17 @@
 				5CFC66591748B45A0036BDF9 /* SMColor.m in Sources */,
 				5CFC665C1748B53A0036BDF9 /* ADArtView.m in Sources */,
 				5CAE83FD174B147F003AFF26 /* ADPenBrush.m in Sources */,
+				5CF55F65174C761A001EA6CE /* ADConcentricCircleBrush.m in Sources */,
+				5CF55F66174C761A001EA6CE /* ADStencilBrush.m in Sources */,
+				5CF55F67174C761A001EA6CE /* ADWebBrush.m in Sources */,
+				5CF55F68174C761A001EA6CE /* ADCurvyBrush.m in Sources */,
+				5CF55F69174C761A001EA6CE /* ADArcBrush.m in Sources */,
+				5CF55F6A174C761A001EA6CE /* ADShadeBrush.m in Sources */,
+				5CF55F6B174C761A001EA6CE /* ADGridBrush.m in Sources */,
+				5CF55F6C174C761A001EA6CE /* ADEraserBrush.m in Sources */,
+				5CF55F6D174C761A001EA6CE /* ADFurBrush.m in Sources */,
+				5CF55F6E174C761A001EA6CE /* ADFillBrush.m in Sources */,
+				5CFA0349175090CB00E5CE69 /* ADTextBrush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

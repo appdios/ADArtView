@@ -7,9 +7,7 @@
 //
 
 #import "ADInkBrush.h"
-#import "ADDrawHelper.h"
-#import "ADUtils.h"
-#import "SMColor.h"
+
 
 @interface ADInkBrush()
 {

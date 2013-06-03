@@ -6,37 +6,34 @@
 //
 
 #import "ADBrushFactory.h"
-//#import "ADPatternBrush.h"
-//#import "ADWebBrush.h"
-//#import "ADCurvyBrush.h"
+#import "ADWebBrush.h"
+#import "ADCurvyBrush.h"
 #import "ADRibbonBrush.h"
 #import "ADSketchBrush.h"
-//#import "ADArcBrush.h"
-//#import "ADSprayBrush.h"
-//#import "ADCalligraphyBrush.h"
-//#import "ADFlowerBrush.h"
-//#import "ADShadeBrush.h"
-//#import "ADGridBrush.h"
-//#import "ADEraserBrush.h"
-//#import "ADStencilBrush.h"
-//#import "ADFurBrush.h"
-//#import "ADFillBrush.h"
-//#import "ADUtils.h"
+#import "ADArcBrush.h"
+#import "ADShadeBrush.h"
+#import "ADGridBrush.h"
+#import "ADEraserBrush.h"
+#import "ADStencilBrush.h"
+#import "ADFurBrush.h"
+#import "ADFillBrush.h"
+#import "ADUtils.h"
 #import "ADProperties.h"
 #import "ADPenBrush.h"
 #import "ADInkBrush.h"
+#import "ADTextBrush.h"
+#import "ADConcentricCircleBrush.h"
 
 @implementation ADBrushFactory
 
 +(id)currentBrushInstance{
     switch ([[ADProperties sharedInstance] brushType]) {
-//        case ADBrushTypePattern:
-//        case ADBrushTypeCrayon:
-//            return [ADPatternBrush sharedInstance];
-//            break;
-//        case ADBrushTypeWeb:
-//            return [ADWebBrush sharedInstance];
-//            break;
+        case ADBrushTypeWeb:
+            return [ADWebBrush sharedInstance];
+            break;
+        case ADBrushTypeConcentricCircle:
+            return [ADConcentricCircleBrush sharedInstance];
+            break;
 //        case ADBrushTypeCurvy:
 //            return [ADCurvyBrush sharedInstance];
 //            break;
@@ -49,32 +46,32 @@
         case ADBrushTypeSketch:
             return [ADSketchBrush sharedInstance];
             break;
-//        case ADBrushTypeArc:
-//            return [ADArcBrush sharedInstance];
-//            break;
-//        case ADBrushTypeCalligraphy:
-//            return [ADCalligraphyBrush sharedInstance];
-//            break;
-//        case ADBrushTypeShade:
-//            return [ADShadeBrush sharedInstance];
-//            break;
-//        case ADBrushTypeGrid:
-//            return [ADGridBrush sharedInstance];
-//            break;
-//        case ADBrushTypeEraser:
-//            return [ADEraserBrush sharedInstance];
-//            break;
-//        case ADBrushTypeFur:
-//            return [ADFurBrush sharedInstance];
-//            break;
+        case ADBrushTypeArc:
+            return [ADArcBrush sharedInstance];
+            break;
+        case ADBrushTypeShade:
+            return [ADShadeBrush sharedInstance];
+            break;
+        case ADBrushTypeGrid:
+            return [ADGridBrush sharedInstance];
+            break;
+        case ADBrushTypeEraser:
+            return [ADEraserBrush sharedInstance];
+            break;
+        case ADBrushTypeFur:
+            return [ADFurBrush sharedInstance];
+            break;
 //        case ADBrushTypeStencil:
 //            return [ADStencilBrush sharedInstance];
 //            break;
-//        case ADBrushTypeFill:
-//            return [ADFillBrush sharedInstance];
-//            break;
+        case ADBrushTypeFill:
+            return [ADFillBrush sharedInstance];
+            break;
         case ADBrushTypeInk:
             return [ADInkBrush sharedInstance];
+            break;
+        case ADBrushTypeText:
+            return [ADTextBrush sharedInstance];
             break;
         default:
             break;

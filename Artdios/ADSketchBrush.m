@@ -6,10 +6,6 @@
 //
 
 #import "ADSketchBrush.h"
-#import "SMPoint.h"
-#import "SMColor.h"
-#import "ADDrawHelper.h"
-#import "ADUtils.h"
 
 @interface ADSketchBrush()
 {

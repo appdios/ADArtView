@@ -173,32 +173,33 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _names = [[NSMutableArray alloc] init];
-        [_names insertObject:@"ADBrushTypePattern" atIndex:ADBrushTypePattern];
+//        [_names insertObject:@"ADBrushTypePattern" atIndex:ADBrushTypePattern];
         [_names insertObject:@"ADBrushTypeWeb" atIndex:ADBrushTypeWeb];
-        [_names insertObject:@"ADBrushTypeCurvy" atIndex:ADBrushTypeCurvy];
+//        [_names insertObject:@"ADBrushTypeCurvy" atIndex:ADBrushTypeCurvy];
         [_names insertObject:@"ADBrushTypeRibbon" atIndex:ADBrushTypeRibbon];
-        [_names insertObject:@"ADBrushTypeSquare" atIndex:ADBrushTypeSquare];
+//        [_names insertObject:@"ADBrushTypeSquare" atIndex:ADBrushTypeSquare];
         [_names insertObject:@"ADBrushTypeSketch" atIndex:ADBrushTypeSketch];
         [_names insertObject:@"ADBrushTypeArc" atIndex:ADBrushTypeArc];
         
-        [_names insertObject:@"ADBrushTypeCycloid" atIndex:ADBrushTypeCycloid];
-        [_names insertObject:@"ADBrushTypeSpray" atIndex:ADBrushTypeSpray];
+//        [_names insertObject:@"ADBrushTypeCycloid" atIndex:ADBrushTypeCycloid];
+//        [_names insertObject:@"ADBrushTypeSpray" atIndex:ADBrushTypeSpray];
         [_names insertObject:@"ADBrushTypeConcentricCircle" atIndex:ADBrushTypeConcentricCircle];
-        [_names insertObject:@"ADBrushTypeCalligraphy" atIndex:ADBrushTypeCalligraphy];
+//        [_names insertObject:@"ADBrushTypeCalligraphy" atIndex:ADBrushTypeCalligraphy];
         
-        [_names insertObject:@"ADBrushTypeFlower" atIndex:ADBrushTypeFlower];
-        [_names insertObject:@"ADBrushTypeCircle" atIndex:ADBrushTypeCircle];
+//        [_names insertObject:@"ADBrushTypeFlower" atIndex:ADBrushTypeFlower];
+//        [_names insertObject:@"ADBrushTypeCircle" atIndex:ADBrushTypeCircle];
         [_names insertObject:@"ADBrushTypeShade" atIndex:ADBrushTypeShade];
         [_names insertObject:@"ADBrushTypeGrid" atIndex:ADBrushTypeGrid];
         [_names insertObject:@"ADBrushTypeEraser" atIndex:ADBrushTypeEraser];
-        [_names insertObject:@"ADBrushTypeStencil" atIndex:ADBrushTypeStencil];
-        [_names insertObject:@"ADBrushTypeSCircle" atIndex:ADBrushTypeSCircle];
-        [_names insertObject:@"ADBrushTypeSRectangle" atIndex:ADBrushTypeSRectangle];
+//        [_names insertObject:@"ADBrushTypeStencil" atIndex:ADBrushTypeStencil];
+//        [_names insertObject:@"ADBrushTypeSCircle" atIndex:ADBrushTypeSCircle];
+//        [_names insertObject:@"ADBrushTypeSRectangle" atIndex:ADBrushTypeSRectangle];
         [_names insertObject:@"ADBrushTypeFur" atIndex:ADBrushTypeFur];
         [_names insertObject:@"ADBrushTypeCrayon" atIndex:ADBrushTypeCrayon];
         [_names insertObject:@"ADBrushTypeFill" atIndex:ADBrushTypeFill];
         [_names insertObject:@"ADBrushTypeInk" atIndex:ADBrushTypeInk];
         [_names insertObject:@"ADBrushTypePen" atIndex:ADBrushTypePen];
+        [_names insertObject:@"ADBrushTypeText" atIndex:ADBrushTypeText];
 
     });
     

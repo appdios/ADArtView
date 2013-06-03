@@ -1,0 +1,941 @@
+TArtdios
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth Artdios/Artdios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/libArtdios.a normal i386
+cPBXCp Artdios/ADArtView.h build/Debug-iphonesimulator/include/Artdios/ADArtView.h
+cPBXCp Artdios/ADEnums.h build/Debug-iphonesimulator/include/Artdios/ADEnums.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000516E644C0000000000000110
+t1366189132
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512065850000000000228FE0
+t1361077637
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005120658600000000003DDFA0
+t1361077638
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005120658600000000000015F7
+t1361077638
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000005120658700000000000093B3
+t1361077639
+s37811
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000512065870000000000015400
+t1361077639
+s87040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000005120658700000000000000C4
+t1361077639
+s196
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005120658700000000001D5750
+t1361077639
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512065870000000000000E8D
+t1361077639
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512065880000000000AB6230
+t1361077640
+s11231792
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m
+c00000000519C411C000000000000055C
+t1369194780
+s1372
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.h
+c00000000519B00860000000000000251
+t1369112710
+s593
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m
+c00000000519C3E610000000000001B54
+t1369194081
+s6996
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m
+c00000000519C41AF00000000000007E1
+t1369194927
+s2017
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m
+c000000005190280F0000000000000837
+t1368401935
+s2103
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProtocol.h
+c000000005190208300000000000001C1
+t1368400003
+s449
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m
+c00000000519C40C1000000000000031C
+t1369194689
+s796
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m
+c00000000519C410F0000000000000654
+t1369194767
+s1620
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m
+c00000000519ADC290000000000005D7F
+t1369103401
+s23935
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEnums.h
+c00000000519ADE9D0000000000000394
+t1369104029
+s916
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m
+c00000000519C412C0000000000000259
+t1369194796
+s601
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m
+c00000000519C4137000000000000031F
+t1369194807
+s799
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m
+c00000000519C4172000000000000086E
+t1369194866
+s2158
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m
+c00000000519C41270000000000000370
+t1369194791
+s880
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m
+c00000000519935A5000000000000092F
+t1368995237
+s2351
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m
+c00000000519990AE00000000000027D7
+t1369018542
+s10199
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m
+c00000000519ADDA40000000000000B78
+t1369103780
+s2936
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.h
+c00000000519AD73C00000000000002F4
+t1369102140
+s756
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m
+c00000000519ADA1900000000000004F5
+t1369102873
+s1269
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m
+c00000000518C2A3A0000000000000671
+t1368140346
+s1649
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m
+c00000000519ADF4A0000000000000B7C
+t1369104202
+s2940
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m
+c00000000519C41230000000000000575
+t1369194787
+s1397
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m
+c00000000519C403E00000000000008B5
+t1369194558
+s2229
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m
+c00000000519C40E3000000000000036F
+t1369194723
+s879
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m
+c00000000519ADDEA0000000000001506
+t1369103850
+s5382
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m
+c00000000519ADE700000000000001F0E
+t1369103984
+s7950
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m
+c00000000519C410300000000000008E6
+t1369194755
+s2278
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Artdios-Prefix.pch
+c00000000519B007C0000000000000136
+t1369112700
+s310
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"ADEnums.h"
+i"ADBrushProtocol.h"
+i<OpenGLES/ES1/gl.h>
+i"ADProperties.h"
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m
+c0000000051901D440000000000000316
+t1368399172
+s790
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m
+c00000000519ADE53000000000000032B
+t1369103955
+s811
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m
+c00000000518C5B7100000000000001ED
+t1368152945
+s493
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m
+c0000000051906ECB0000000000002EBA
+t1368420043
+s11962
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m
+c000000005189C83600000000000015AF
+t1367984182
+s5551
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m
+c00000000519053E10000000000001FA6
+t1368413153
+s8102
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m
+c000000005189C8360000000000000CF4
+t1367984182
+s3316
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Artdios.LinkFileList
+c00000000519C41C400000000000010C6
+t1369194948
+s4294
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios/ADArtView.h
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios/ADEnums.h
+t2
+s0
+
+N/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/libArtdios.a
+t2
+s0
+
+N/var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m
+r0
+
+CBuild AST from /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba4e4744794cb741^3a216844794cb741^---0#1#0#--18"Check dependencies36"0FE95296-29A8-4FA6-A857-EC5BA167491B-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.871303
+e390887748.910864
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m7f31df44794cb741^857aea44794cb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m0000000000000000^3596"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o Artdios/ADArcBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArcBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArcBrush.o36"40507B35-0CD0-4C8F-A956-3ECD76D95E16-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.862003
+e390887748.970413
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.me1d3dc44794cb741^836df844794cb741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m0000000000000000^3590"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o Artdios/ADArtView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADArtView.o36"6F195F12-BF3B-4B2D-9FC1-79667B8A2DCA-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714031
+e390887748.750915
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.mddedb644794cb741^a147c044794cb741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m0000000000000000^3620"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o Artdios/ADBrushFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushFactory.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushFactory.o36"4E06B37B-1B41-4164-BAC5-D93771E7E0D9-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.821216
+e390887748.867954
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.mab5ad244794cb741^6d36de44794cb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m0000000000000000^3626"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o Artdios/ADBrushProperty.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADBrushProperty.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADBrushProperty.o36"1650B0BD-B31F-43D5-9E0B-0249CB9D59E9-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714018
+e390887748.749040
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m85eeb644794cb741^42d2bf44794cb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m0000000000000000^3674"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o Artdios/ADConcentricCircleBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADConcentricCircleBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADConcentricCircleBrush.o36"BAB55EE3-7EC1-4B27-9D4D-386CD19AFF2E-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714057
+e390887748.755926
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m17f0b644794cb741^7383c144794cb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m0000000000000000^3608"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o Artdios/ADCurvyBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADCurvyBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADCurvyBrush.o36"FE8FA4F3-8733-4161-87E1-A514D7BBCDB1-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714106
+e390887748.835706
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.md8f2b644794cb741^2cf0d544794cb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m0000000000000000^3608"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o Artdios/ADDrawHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADDrawHelper.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADDrawHelper.o36"6D333502-AB51-4261-928F-7B83B5D1B920-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.885204
+e390887748.926545
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m19c5e244794cb741^0d36ed44794cb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m0000000000000000^3614"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o Artdios/ADEraserBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEraserBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADEraserBrush.o36"27500CA8-FFFF-4A70-9542-D4840D1508CB-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.900371
+e390887748.941667
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.mf0a7e644794cb741^ba12f144794cb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m0000000000000000^3602"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o Artdios/ADFillBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFillBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFillBrush.o36"5335322A-8490-4B84-A9D9-A466AE17CB58-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714117
+e390887748.767976
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m91f3b644794cb741^3999c444794cb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m0000000000000000^3596"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o Artdios/ADFurBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADFurBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADFurBrush.o36"DC4E65F7-52F9-4DA6-8C96-4B15E4F988CE-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714083
+e390887748.756890
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m88f1b644794cb741^c1c6c144794cb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m0000000000000000^3602"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o Artdios/ADGridBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADGridBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADGridBrush.o36"81DA18EF-6D2D-4E23-AF1E-53859974217D-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.750376
+e390887748.795334
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m8b50c044794cb741^9baacb44794cb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m0000000000000000^3596"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o Artdios/ADInkBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADInkBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADInkBrush.o36"49C03906-D0B2-4713-9472-4C334AF1AFB9-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.797939
+e390887748.915879
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.ma16acc44794cb741^8d80ea44794cb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m0000000000000000^3602"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o Artdios/ADLayerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADLayerView.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADLayerView.o36"4A07E74E-614D-42CE-B564-3F2C5607CCD1-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.862069
+e390887748.926473
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.maed7dc44794cb741^b22fed44794cb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m0000000000000000^3596"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o Artdios/ADPenBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPenBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPenBrush.o36"D93886D4-AFED-40E7-897F-F41741E883D8-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.821050
+e390887748.870042
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.mac52d244794cb741^66bfde44794cb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m0000000000000000^3608"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o Artdios/ADProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADProperties.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADProperties.o36"3387896A-C1B1-4B59-802E-8A3C342E9144-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.820753
+e390887748.860714
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.mf052d244794cb741^3468dc44794cb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m0000000000000000^3638"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o Artdios/ADPropertyManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADPropertyManager.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADPropertyManager.o36"DBCC8670-6733-4145-B383-574EF4EFED7C-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.757118
+e390887748.809338
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m49f5c144794cb741^4030cf44794cb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m0000000000000000^3614"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o Artdios/ADRibbonBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADRibbonBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADRibbonBrush.o36"1EA67882-4C9D-4D90-8CB3-69593263B9FC-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714073
+e390887748.756886
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.mf1f0b644794cb741^b1c2c144794cb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m0000000000000000^3608"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o Artdios/ADShadeBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADShadeBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADShadeBrush.o36"71AACC48-E1CC-479D-8587-CC69104FCF70-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.752205
+e390887748.804343
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m17b8c044794cb741^9126ce44794cb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m0000000000000000^3614"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o Artdios/ADSketchBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADSketchBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADSketchBrush.o36"4A81FF2C-416A-406B-853B-AC7C0D87A9AF-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.869292
+e390887748.915545
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m03b3de44794cb741^957eea44794cb741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m0000000000000000^3620"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o Artdios/ADStencilBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStencilBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStencilBrush.o36"2798A7C1-A31E-48BE-B5D7-280CF2D6DA94-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.757133
+e390887748.819417
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m73f7c144794cb741^d1cad144794cb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m0000000000000000^3626"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o Artdios/ADStrokeHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADStrokeHandler.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADStrokeHandler.o36"3B167E08-EA57-49AE-B7B3-8A4524717F61-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.714000
+e390887748.791788
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m2cefb644794cb741^74b4ca44794cb741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m0000000000000000^3578"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o Artdios/ADUtils.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADUtils.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADUtils.o36"145FF61F-2CB9-4529-9B48-E4F88CD86294-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.871315
+e390887748.926606
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m5932df44794cb741^c13bed44794cb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m0000000000000000^3596"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o Artdios/ADWebBrush.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADWebBrush.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/ADWebBrush.o36"48C20298-B762-4F6C-9B1A-FD4711FB9608-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.845381
+e390887748.883860
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m7094d844794cb741^0f44e244794cb741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m0000000000000000^3578"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o Artdios/SMColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMColor.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMColor.o36"0E2591D8-1D06-4529-A591-DD29DF743CE3-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.757159
+e390887748.796692
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.me0f5c144794cb741^77f4cb44794cb741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m0000000000000000^3590"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o Artdios/SMPainter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPainter.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPainter.o36"5812F8BE-1814-4736-9D33-A6F2838069F3-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.837079
+e390887748.870006
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m8273d644794cb741^b2b9de44794cb741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m0000000000000000^3578"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o Artdios/SMPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/SMPoint.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/SMPoint.o36"C63D3EF7-1B55-497B-ACC1-E7DA78BFD638-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.807305
+e390887748.898778
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m5ed8ce44794cb741^a915e644794cb741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m0000000000000000^3590"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o Artdios/Texture2D.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Texture2D.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Texture2D.o36"EFA889CC-7663-4AD7-948F-B2B0B1D91FC5-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.793269
+e390887748.843991
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.mb03dcb44794cb741^460bd844794cb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m0000000000000000^3614"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o Artdios/UIImage+Alpha.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Alpha.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Alpha.o36"37AF7C35-1DE2-41E9-A726-292875EA8437-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.796630
+e390887748.861266
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m3716cc44794cb741^917ddc44794cb741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m0000000000000000^3620"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o Artdios/UIImage+Resize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+Resize.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+Resize.o36"CC27FA95-D349-4D5F-BF42-0A5075C49BAE-
+
+CCompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.769345
+e390887748.819412
+r1
+xCompileC
+xbuild/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m691dc544794cb741^9bc7d144794cb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m0000000000000000^3662"CompileC build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o Artdios/UIImage+RoundedCorner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -include /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch -MMD -MT dependencies -MF /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.d --serialize-diagnostics /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/UIImage+RoundedCorner.m -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/UIImage+RoundedCorner.o36"4FEE5FDB-38FB-4773-B84F-D87DB5594531-
+
+CLibtool /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/libArtdios.a normal i386
+s390887748.977207
+e390887748.989136
+r1
+xLibtool
+x/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/libArtdios.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Libtool build/Debug-iphonesimulator/libArtdios.a normal i3867e3afa44794cb741^b037fd44794cb741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1138"Libtool build/Debug-iphonesimulator/libArtdios.a normal i386    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator -L/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Build/Debug-iphonesimulator -filelist /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Objects-normal/i386/Artdios.LinkFileList -ObjC -framework CoreGraphics -framework UIKit -framework QuartzCore -framework OpenGLES -framework Foundation -o /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/libArtdios.a36"2A2C7DFE-589B-4DB3-9C3E-B89232E5F9D7-
+
+CPBXCp Artdios/ADArtView.h build/Debug-iphonesimulator/include/Artdios/ADArtView.h
+s390887748.996858
+e390887749.000931
+r1
+xPBXCp
+xArtdios/ADArtView.h
+xbuild/Debug-iphonesimulator/include/Artdios/ADArtView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/include/Artdios/ADArtView.h9775ff44794cb741^ff3d0045794cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios/ADArtView.h000000000080d041^616"PBXCp Artdios/ADArtView.h build/Debug-iphonesimulator/include/Artdios/ADArtView.h    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADArtView.h /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios36"B391D11E-C6F0-484A-A77B-C4A0E4730609-
+
+CPBXCp Artdios/ADEnums.h build/Debug-iphonesimulator/include/Artdios/ADEnums.h
+s390887748.996894
+e390887749.000935
+r1
+xPBXCp
+xArtdios/ADEnums.h
+xbuild/Debug-iphonesimulator/include/Artdios/ADEnums.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/include/Artdios/ADEnums.hc975ff44794cb741^af400045794cb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios/ADEnums.h000000000080d041^610"PBXCp Artdios/ADEnums.h build/Debug-iphonesimulator/include/Artdios/ADEnums.h    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/ADEnums.h /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include/Artdios36"7565DE60-8B1F-45DC-BD5B-957DCF7F7658-
+
+CProcessPCH /Users/aditikamal/Library/Developer/Xcode/DerivedData/Artdios-drpyyypioyqtomhatjpppdpnkeqs/Index/PrecompiledHeaders/Artdios-Prefix-dmvmpyxncdbpzjgxiguwhzzpwzae_ast/Artdios-Prefix.pch.pth Artdios/Artdios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth Artdios/Artdios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390887748.412644
+e390887748.707093
+r1
+xProcessPCH
+x/var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth
+xArtdios/Artdios-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Artdios/Artdios-Prefix.pch41b96944794cb741^5c05b544794cb741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Artdios-Prefix.pch0000000000000000^3579"ProcessPCH /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth Artdios/Artdios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aditikamal/Desktop/AppdiosProjects/ADArtView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-generated-files.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-own-target-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-all-target-headers.hmap -iquote /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/Artdios-project-headers.hmap -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources/i386 -I/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Artdios.build/Debug-iphonesimulator/Artdios.build/DerivedSources -F/Users/aditikamal/Desktop/AppdiosProjects/ADArtView/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.dia -c /Users/aditikamal/Desktop/AppdiosProjects/ADArtView/Artdios/Artdios-Prefix.pch -o /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5d/ywt6mgjd5fsf9hlnw875b9680000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Artdios-Prefix-bfcizhpkldykfwggvbjlkjbcsyoz/Artdios-Prefix.pch.d36"FDBF20B2-ACE2-4C73-BDA1-8BDD9F6B1C3C-
+

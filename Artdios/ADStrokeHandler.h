@@ -20,8 +20,4 @@
 - (void)pathMoveFromPoint:(CGPoint)begin toPoint:(CGPoint)end speed:(double)speed;
 - (void)drawImage:(UIImage*)image atPoint:(CGPoint)point;
 
-//-(void)pathMoveFromPoint:(CGPoint)begin toPoint:(CGPoint)end speed:(double)speed;
-//- (void) pathEnd:(CGPoint)point;
-//-(void) drawBackgroundImage:(UIImage*)image;
-//-(void) drawStencil:(CGPoint)point;
 @end
