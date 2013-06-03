@@ -64,7 +64,7 @@
     {
         ADProperties *properties = [ADProperties sharedInstance];
         if (properties.stencilImage==nil) {
-            UIImage *stencilImg = [UIImage imageNamed:@"Watercolor-fill"];
+            UIImage *stencilImg = [UIImage imageNamed:@"artview.bundle/Watercolor-fill"];
             
             properties.stencilImage=nil;
             properties.stencilImage = [[Texture2D alloc] initWithTextureImage:stencilImg];

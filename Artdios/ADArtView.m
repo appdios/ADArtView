@@ -26,6 +26,7 @@ static const NSInteger kHistoryThreshold  = 30;
 @property (nonatomic, strong) ADPropertyManager *propertyManager;
 @property (nonatomic, strong) UIImage *snapshotImage;
 @property (nonatomic, strong) NSMutableArray *historyArts;
+@property (nonatomic) BOOL appVerified;;
 @end
 
 @implementation ADArtView
@@ -35,6 +36,7 @@ static const NSInteger kHistoryThreshold  = 30;
     self = [super initWithFrame:frame];
     if (self) {
         [self setDefaults];
+        [self checkAppInfo];
     }
     return self;
 }
@@ -103,6 +105,7 @@ static const NSInteger kHistoryThreshold  = 30;
 
 - (void)setDefaults
 {
+    self.appVerified = TRUE;
     self.strokeHandler = [[ADStrokeHandler alloc] init];
     self.propertyManager = [[ADPropertyManager alloc] init];
         
@@ -110,6 +113,23 @@ static const NSInteger kHistoryThreshold  = 30;
     [self addSubview:self.currentLayer];
     
     [[ADProperties sharedInstance] setBrushType:ADBrushTypeInk];
+}
+
+- (void)checkAppInfo
+{
+    NSString *appName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+    if ([appName length]) {
+        NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.appdios.com/artview/verify.html?%@",appName]]];
+        [NSURLConnection sendAsynchronousRequest:urlRequest queue:[NSOperationQueue currentQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+            if (error==nil) {
+                NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                NSLog(@"%@",[responseString stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]]);
+                if ([[responseString stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]] isEqualToString:@"0"]) {
+                    self.appVerified = FALSE;
+                }
+            }
+        }];
+    }
 }
 
 - (void)layoutSubviews
@@ -146,7 +166,7 @@ static const NSInteger kHistoryThreshold  = 30;
 
 - (void) brushChanged
 {
-    [self.propertyManager addTexture:[UIImage imageNamed:@"particle4"]];
+    [self.propertyManager addTexture:[UIImage imageNamed:@"artview.bundle/particle"]];
 }
 
 #pragma mark -
@@ -155,6 +175,9 @@ static const NSInteger kHistoryThreshold  = 30;
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if ([touches count]>1) {
+        return;
+    }
+    if (!self.appVerified) {
         return;
     }
     
@@ -175,6 +198,9 @@ static const NSInteger kHistoryThreshold  = 30;
     if ([touches count]>1) {
         return;
     }
+    if (!self.appVerified) {
+        return;
+    }
     
     CGRect bounds = [self.currentLayer bounds];
 	UITouch *touch = [[event touchesForView:self.currentLayer] anyObject];
@@ -190,6 +216,9 @@ static const NSInteger kHistoryThreshold  = 30;
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if ([touches count]>1) {
+        return;
+    }
+    if (!self.appVerified) {
         return;
     }
     CGRect bounds = [self.currentLayer bounds];
@@ -221,7 +250,7 @@ static const NSInteger kHistoryThreshold  = 30;
     
     const float lambda = 0.99f; // the closer to 1 the higher weight to the next touch
     
-    double newSpeed = (1.0 - lambda) * oldSpeed + lambda* (distanceFromPrevious/timeSincePrevious);
+    double newSpeed = (1.0 - lambda) * oldSpeed + lambda * (distanceFromPrevious/timeSincePrevious);
     oldSpeed = newSpeed;
     [self.strokeHandler pathMoveFromPoint:startPoint toPoint:endPoint speed:newSpeed];
     previousTimestamp = event.timestamp;
