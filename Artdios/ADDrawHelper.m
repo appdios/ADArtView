@@ -97,7 +97,7 @@ void drawEraserLine(CGPoint begin, CGPoint end, int size){
 	// Allocate vertex array buffer
 	if(vertexBuffer == NULL)
 		vertexBuffer = malloc(vertexMax * 2 * sizeof(GLfloat));
-    CGFloat scale = [[UIScreen mainScreen] scale];
+   // CGFloat scale = [[UIScreen mainScreen] scale];
 
 	// Add points to the buffer so there are drawing points every X pixels
 	count = MAX(ceilf(sqrtf((end.x - begin.x) * (end.x - begin.x) + (end.y - begin.y) * (end.y - begin.y)) / size), 1);
@@ -110,9 +110,10 @@ void drawEraserLine(CGPoint begin, CGPoint end, int size){
 		vertexBuffer[2 * vertexCount + 0] = begin.x + (end.x - begin.x) * ((GLfloat)i / (GLfloat)count);
 		vertexBuffer[2 * vertexCount + 1] = begin.y + (end.y - begin.y) * ((GLfloat)i / (GLfloat)count);
         
-        drawCircle(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 60, FALSE);
-        
-       // drawCircleTexture(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 30, FALSE);
+        drawPoint(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]));
+//        drawCircle(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 45*scale, FALSE);
+//        
+//        drawCircleTexture(CGPointMake(vertexBuffer[2 * vertexCount + 0], vertexBuffer[2 * vertexCount + 1]), 20*scale, 0, 45*scale, FALSE);
         vertexCount += 1;
         
 	}

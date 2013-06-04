@@ -57,7 +57,8 @@
         //   glBlendFunc(GL_ONE, GL_ZERO);
         //   glBlendFunc(GL_ZERO, GL_ZERO);
         // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_DST_ALPHA);
-        glBlendFunc(GL_ZERO, GL_ZERO);
+       // glBlendFunc(GL_ZERO, GL_ZERO);
+        glBlendFunc (GL_ZERO, GL_ONE_MINUS_SRC_ALPHA);
          //glBlendFunc(GL_ONE, GL_ONE_MINUS_DST_ALPHA);
     }
     else if(brushType == ADBrushTypeFill)

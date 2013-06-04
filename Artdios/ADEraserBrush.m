@@ -23,14 +23,14 @@
 -(void) pathStart:(CGPoint)point
 {
     CGFloat scale = [[UIScreen mainScreen] scale];
-    glPointSize(2.0*scale);
+    glPointSize(60.0*scale);
     drawEraserLine(point, point, 10);
 }
 
 -(void)pathMoveFromPoint:(CGPoint)begin toPoint:(CGPoint)end speed:(double)speed{
     
     CGFloat scale = [[UIScreen mainScreen] scale];
-    glPointSize(2.0*scale);
+    glPointSize(60.0*scale);
     drawEraserLine(begin, end, 10);
 }
 
